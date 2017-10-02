@@ -1,0 +1,72 @@
+
+==================== FINAL INTERFACE ====================
+2017-10-02 01:31:17.83315 UTC
+
+interface one-to-ten-0.1.0.0-GMW0cwlHCIMF7v8w30g4Rz:Data.List.MyLength 8002
+  interface hash: ee5ddd9259292f1abdf7490fa05bc639
+  ABI hash: ca0a0052582791449822169a71851532
+  export-list hash: 37cac2e4725c2bf668d6cb97c3b9c936
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 03754cd516754e76af183aba02f87c4d
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Data.List.MyLength.myLength
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+bb57fa1d662cd1cadc8d8958a8369e72
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Data.List.MyLength.$trModule2
+                   Data.List.MyLength.$trModule1) -}
+47656b1b77686aaef4d03c38a68a9c3a
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Data.List.MyLength"#) -}
+b28640f57f27693e6d1de69a1d758900
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "one-to-ten-0.1.0.0-GMW0cwlHCIMF7v8w30g4Rz"#) -}
+082a5c4d333f6e45ac024cbbff590fd2
+  $wpoly_f :: [a] -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, Strictness: <S,1*U><S,U>, Inline: [0] -}
+bd41fb4c25582710e65610146f999514
+  myLength :: [a] -> GHC.Types.Int
+  {- Arity: 1, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (xs :: [a]) ->
+                 Data.List.MyLength.myLength2
+                   @ a
+                   xs
+                   Data.List.MyLength.myLength1) -}
+c81e4f8a9ebf31d6c69b2ffd42dfe9be
+  myLength1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+5ad92c8c92e3d056d1e0a3ef6fade056
+  myLength2 :: [a] -> GHC.Types.Int -> GHC.Types.Int
+  {- Arity: 2, Strictness: <S,1*U><S(S),1*U(U)>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a (w :: [a]) (w1 :: GHC.Types.Int) ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 case Data.List.MyLength.$wpoly_f @ a w ww1 of ww2 { DEFAULT ->
+                 GHC.Types.I# ww2 } }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

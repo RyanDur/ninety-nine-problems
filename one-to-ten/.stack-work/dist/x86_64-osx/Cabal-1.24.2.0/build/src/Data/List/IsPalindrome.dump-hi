@@ -1,0 +1,53 @@
+
+==================== FINAL INTERFACE ====================
+2017-10-02 02:06:45.419561 UTC
+
+interface one-to-ten-0.1.0.0-GMW0cwlHCIMF7v8w30g4Rz:Data.List.IsPalindrome 8002
+  interface hash: edc72f66e47346dfcc1a99ea1072b8c1
+  ABI hash: 76a861a67bfb8f512bfe39f9b7c5804e
+  export-list hash: 6718f8d3654436d90d42bd24e5ce9b19
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 03754cd516754e76af183aba02f87c4d
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Data.List.IsPalindrome.isPalindrome
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+f6f287a907f104e24881e2d82ca5cd98
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Data.List.IsPalindrome.$trModule2
+                   Data.List.IsPalindrome.$trModule1) -}
+ae69c1a751f670084a042d371a99479a
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Data.List.IsPalindrome"#) -}
+d932500c0023294a279be480ff5c9c17
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "one-to-ten-0.1.0.0-GMW0cwlHCIMF7v8w30g4Rz"#) -}
+94fd7e9997a84521a3653a631f94a8e8
+  isPalindrome :: GHC.Classes.Eq a => [a] -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,U(C(C1(U)),A)><S,1*U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

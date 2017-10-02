@@ -56,6 +56,13 @@
   (major1) == 2 && (major2) <  17 || \
   (major1) == 2 && (major2) == 17 && (minor) <= 3)
 
+/* tool happy-1.19.5 */
+#define TOOL_VERSION_happy "1.19.5"
+#define MIN_TOOL_VERSION_happy(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  19 || \
+  (major1) == 1 && (major2) == 19 && (minor) <= 5)
+
 /* tool hpc-0.67 */
 #define TOOL_VERSION_hpc "0.67"
 #define MIN_TOOL_VERSION_hpc(major1,major2,minor) (\
@@ -69,6 +76,13 @@
   (major1) <  0 || \
   (major1) == 0 && (major2) <  68 || \
   (major1) == 0 && (major2) == 68 && (minor) <= 1)
+
+/* tool hscolour-1.24 */
+#define TOOL_VERSION_hscolour "1.24"
+#define MIN_TOOL_VERSION_hscolour(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  24 || \
+  (major1) == 1 && (major2) == 24 && (minor) <= 0)
 
 /* tool pkg-config-0.29.2 */
 #define TOOL_VERSION_pkg_config "0.29.2"
